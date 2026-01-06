@@ -1,0 +1,44 @@
+{
+  "project_name": "MPM Python Boilerplate",
+  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+  "project_keywords": "template, python package, poetry",
+  
+  "full_name": "Mark Peter Mansell",
+  "email": "mark.mansell@gmail.com.com",
+ 
+  "github_username": "mpmansell",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  
+  "python_version": "3.14",
+  "python_version_range": ">=3.13, <3.15",
+    
+  "pypi_package_name": "{{cookiecutter.project_name.lower().replace(' ', '_')}}",
+  "project_slug": "{{ cookiecutter.pypi_package_name.replace('-', '_') }}",
+  "first_version": "0.1.0",
+  
+  "license": [
+    "MIT",
+    "Apache-2.0",
+    "AGPL-3.0",
+    "MPL-2.0",
+    "BSD-3-Clause",
+    "GPL-3.0",
+    "LGPL-3.0",
+    "Proprietary"
+  ],
+  
+  "coverage": ["no", "yes"],
+  
+  "ci": [
+    "none",
+    "github"
+  ],
+
+  "project_homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
+  "project_repository": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
+  
+  "year": "2026",
+  
+
+  "__gh_slug": "{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}"
+}

@@ -1,0 +1,27 @@
+[project]
+name = "Misc-exercises"
+version = "0.1.0"
+description = "Misc exercises using Jupyter"
+authors = [
+    {name = "Mark Peter Mansell",email = "mark.mansell@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "isort (>=7.0.0,<8.0.0)",
+    "black (>=25.11.0,<26.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "mypy (>=1.19.1,<2.0.0)",
+]
+
+[tool.poetry]
+# packages = [{include = "string_exercises", from = "src"}]
+#packages = [{include = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

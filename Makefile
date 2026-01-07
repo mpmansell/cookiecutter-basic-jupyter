@@ -53,6 +53,7 @@ help:
 	@echo ""
 	@echo "  make poetry-install Install dependencies with Poetry"
 	@echo "  make poetry-update  Update dependencies with Poetry"
+	@echo "  make git-init       Initialize a new git repository"
 	@echo ""
 	@echo "  make vsc            Start Visual Studio Code using the current project environment"	
 	@echo ""
@@ -111,6 +112,12 @@ poetry-install:
 
 poetry-update:
 	$(POETRY) update
+	
+# Initialize a new git repository
+git-init:
+	git init
+	git add .
+	git commit -m "Initial commit"
 
 # Visual Studio Code target
 vsc:

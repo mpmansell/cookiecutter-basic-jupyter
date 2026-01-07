@@ -1,7 +1,9 @@
 [project]
-name = "Misc-exercises"
+name = "{{cookiecutter.project_slug}}"
 version = "0.1.0"
-description = "Misc exercises using Jupyter"
+description = "{{cookiecutter.project_short_description}}"
+license = "{{cookiecutter.license}}"
+
 authors = [
     {name = "Mark Peter Mansell",email = "mark.mansell@gmail.com"}
 ]
@@ -15,8 +17,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-# packages = [{include = "string_exercises", from = "src"}]
-#packages = [{include = "src"}]
+package-mode = false
 
 
 [tool.poetry.group.dev.dependencies]

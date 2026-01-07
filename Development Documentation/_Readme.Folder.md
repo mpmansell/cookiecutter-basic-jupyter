@@ -11,3 +11,6 @@ This folder contains notes and resources relevant to the development process for
 - [Using Pytest in Jupyter Notebooks: A Practical Guide | by mefengl | Medium](https://medium.com/@mefengl/using-pytest-in-jupyter-notebooks-a-practical-guide-1ba8e02af288)
 - [How to Test Jupyter Notebooks with Pytest and Nbmake - Semaphore](https://semaphore.io/blog/test-jupyter-notebooks-with-pytest-and-nbmake)
 - [pytest-notebook — pytest-notebook 0.10.0 documentation](https://pytest-notebook.readthedocs.io/en/latest/)
+
+- [How to Use Jupyter Notebooks as Modules | by David Burton | Medium](https://medium.com/@trvlingteacher/how-to-use-jupyter-notebooks-as-modules-4ee099d7b34)
+

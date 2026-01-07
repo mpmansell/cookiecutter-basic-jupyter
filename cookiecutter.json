@@ -7,13 +7,11 @@
   "email": "mark.mansell@gmail.com.com",
  
   "github_username": "mpmansell",
-  "pypi_username": "{{ cookiecutter.github_username }}",
   
   "python_version": "3.14",
   "python_version_range": ">=3.13, <3.15",
     
-  "pypi_package_name": "{{cookiecutter.project_name.lower().replace(' ', '_')}}",
-  "project_slug": "{{ cookiecutter.pypi_package_name.replace('-', '_') }}",
+  "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_')}}",
   "first_version": "0.1.0",
   
   "notebook_folder": "notebooks",
@@ -22,7 +20,7 @@
   "license": [
     "Proprietary",
     "MIT",
-    "Apache-2.0",
+    "Apache-2.0", 
     "AGPL-3.0",
     "MPL-2.0",
     "BSD-3-Clause",

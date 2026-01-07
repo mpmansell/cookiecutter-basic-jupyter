@@ -27,6 +27,8 @@ pip install -U cookiecutter
 cookiecutter https://github.com/mpmansell/cookiecutter-basic-jupyter.git
 ```
 
+or dowload the Zip file from [Releases](https://github.com/mpmansell/cookiecutter-basic-jupyter/releases) and use following the steps outlined in the [Works with Zip files](https://cookiecutter.readthedocs.io/en/latest/usage.html#works-with-zip-files) section of the official [Cookiecutter Documentation](https://cookiecutter.readthedocs.io/en/stable/)
+
 Follow the on screen prompts to configure the project per your specifications.
 
 ### Step 2: Install the Poetry environment

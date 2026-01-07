@@ -1,24 +1,19 @@
 # Cookiecutter Basic Jupyter Template
 
-[![PyPI version](https://img.shields.io/pypi/v/cookiecutter-pypackage.svg)](https://pypi.python.org/pypi/cookiecutter-pypackage)
-[![PyPI downloads](https://img.shields.io/pypi/dm/cookiecutter-pypackage.svg)](https://pypi.python.org/pypi/cookiecutter-pypackage)
+[Cookiecutter Basic Jupyter](https://github.com/mpmansell/cookiecutter-basic-jupyter) template for a generic Jupyter Python workflow environment.
 
-[Cookiecutter](https://github.com/mpmansell/cookiecutter-BasicPyTemplate) template for a generic Jupyter Python workflow environment.
+* GitHub repo:
+* Free software: MIT license
 
-*   GitHub repo:
-*   Free software: MIT license
+## See TODO.md
 
-
-
-## SEE TODO.md
-
-​	`TODO.md` has a list of items to be done to improve this package
+- 'TODO.md` has a list of items to be done to improve this package
 
 ## Features
 
-*   Create working environment for a Jupyter Notebook (_Python).
-*   Uses Poetry for environment management
-*   Provides Makefile to help access features.
+* Create working environment for a Jupyter Notebook (Python).
+* Uses Poetry for environment management
+* Provides Makefile to help access features.
 
 ## Quickstart
 
@@ -31,14 +26,14 @@ pip install -U cookiecutter
 Generate a Python package project:
 
 ```bash
-cookiecutter https://github.com/mpmansell/cookiecutter-BasicPyTemplate.git
+cookiecutter https://github.com/mpmansell/cookiecutter-basic-jupyter.git
 ```
 
 Then:
 
-*   Create a repo and put it there.
-*   [Register](https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives) your project with PyPI.
-*   Add the repo to your [Read the Docs](https://readthedocs.io/) account + turn on the Read the Docs service hook.
+* Create a repo and put it there.
+* [Register](https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives) your project with PyPI.
+* Add the repo to your [Read the Docs](https://readthedocs.io/) account + turn on the Read the Docs service hook.
 
 ## Not Exactly What You Want?
 

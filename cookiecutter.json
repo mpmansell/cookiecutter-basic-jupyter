@@ -1,8 +1,8 @@
 {
-  "project_name": "MPM Python Boilerplate",
-  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
-  "project_keywords": "template, python package, poetry",
-  
+  "project_name": "Jupyter Python Boilerplate",
+  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python Jupyter Notebook project.",
+  "project_keywords": "template, python, jupyter, notebook, poetry",
+
   "full_name": "Mark Peter Mansell",
   "email": "mark.mansell@gmail.com.com",
  
@@ -16,24 +16,20 @@
   "project_slug": "{{ cookiecutter.pypi_package_name.replace('-', '_') }}",
   "first_version": "0.1.0",
   
+  "notebook_folder": "notebooks",
+  "default_notebook_name": "notebook.ipynb",
+  
   "license": [
+    "Proprietary",
     "MIT",
     "Apache-2.0",
     "AGPL-3.0",
     "MPL-2.0",
     "BSD-3-Clause",
     "GPL-3.0",
-    "LGPL-3.0",
-    "Proprietary"
+    "LGPL-3.0"    
   ],
   
-  "coverage": ["no", "yes"],
-  
-  "ci": [
-    "none",
-    "github"
-  ],
-
   "project_homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
   "project_repository": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
   

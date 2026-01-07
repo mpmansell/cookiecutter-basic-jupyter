@@ -5,15 +5,13 @@
 * GitHub repo:
 * Free software: MIT license
 
-## See TODO.md
-
-- 'TODO.md` has a list of items to be done to improve this package
-
 ## Features
 
 * Create working environment for a Jupyter Notebook (Python).
 * Uses Poetry for environment management
 * Provides Makefile to help access features.
+
+---
 
 ## Quickstart
 
@@ -57,7 +55,11 @@ Invoke-Expression (poetry env activate)
 source `poetry env info --path`/bin/activate
 ```
 
-* Git Bash is not supported since, when the OS is probed, it will identify as Windows
+* For Git Bash use:
+
+```bash
+make venv-activate-gitbash
+```
 
 ### Step 4: Check to see if the Virtual Environment is active
 
@@ -103,11 +105,14 @@ Don't worry, you have options:
 
 ### Fork This / Create Your Own
 
-If you have differences in your preferred setup, I encourage you to fork this
-to create your own version. Or create your own; it doesn't strictly have to
-be a fork.
+If you have differences in your preferred setup, I encourage you to fork this to create your own version. Or create your own; it doesn't strictly have to be a fork.
 
 ### Or Submit a Pull Request
 
 I also accept pull requests on this, if they're small, atomic, and if they
 make my own packaging experience better.
+
+## See TODO.md
+
+- 'TODO.md` has a list of items to be done to improve this package
+

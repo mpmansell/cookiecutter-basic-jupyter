@@ -47,12 +47,14 @@ help:
 	@echo ""
 	@echo "Usage:"
 	@echo "  make install        Install dependencies with Poetry"
-	@echo "  make venv-activate  Activate the virtual environment"
+	@echo "  make venv-activate  Get instructions to activate the virtual environment"
 	@echo "  make show-env       Show current path to the virtual environment's Python interpreter"
 	@echo "  make run-notebook   Start VSC with the default notebook"
 	@echo ""
-	@echo "  make poetry-install Install dependencies with Poetry"
+	@echo "  make poetry-install Install dependencies with Poetry (Alias for 'make install')"
 	@echo "  make poetry-update  Update dependencies with Poetry"
+	@echo ""
+	@echo "  make git-init       Initialize a new git repository"
 	@echo ""
 	@echo "  make vsc            Start Visual Studio Code using the current project environment"	
 	@echo ""
@@ -78,7 +80,7 @@ else
 	@echo ""
 	@echo "Then to show the python executable location (to verify correct activation):"
 	@echo ""
-	@echo "    which python"
+	@echo "    `which python` or `make show-env`
 	@echo ""
 endif
 
@@ -111,7 +113,13 @@ poetry-install:
 
 poetry-update:
 	$(POETRY) update
-
+	
+# Initialize a new git repository
+git-init:
+	git init
+	git add .
+	git commit -m "Initial commit"
+	
 # Visual Studio Code target
 vsc:
 	$(RUN) code -n .

@@ -11,6 +11,7 @@ from typing import List
 applications_to_check = [
     ["poetry", "--version", "Poetry is not installed. Please install Poetry to manage dependencies and virtual environments."],
     # ["docker", "--version", "Docker is not installed. Please install Docker to manage containers."],
+    ["changelog", "--version", "Changelog is not installed. Please install Changelog to manage project CHANGELOG."],
     ["git", "--version", "Git is not installed. Please install Git for version control."],
     ["make", "--version", "Make is not installed. Please install Make to use the provided Makefile."],
 ]
